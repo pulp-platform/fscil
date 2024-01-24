@@ -1,0 +1,7 @@
+The project has the following external dependencies:
+- https://github.com/pulp-platform/dory: commit 4f0d2a38848b7c5ba7a70c2a97e6cbc6ba84c4f4
+  - 223731557abd656223b9f80e9747d2778cdf5c36 dory/Hardware_targets/Diana/Backend_Kernels/dory-hal (heads/master)
+  - 9ada4a93bd9704bda0da29be1029ffe8f1362428 dory/Hardware_targets/PULP/Backend_Kernels/pulp-nn (v1.0-52-g9ada4a9)
+  - a401353886bd61fe851d5e1e79ac2fac770ca88b dory/Hardware_targets/PULP/Backend_Kernels/pulp-nn-1d ((null))
+  - 46cbceb9dfd8bd2febdcd30c443fe9bbb35f0a26 dory/Hardware_targets/PULP/Backend_Kernels/pulp-nn-mixed (heads/main)
+  - 60dd66bf1d9ce81c0cdd5f70e51040a332dce8e5 dory/dory_examples (heads/master)

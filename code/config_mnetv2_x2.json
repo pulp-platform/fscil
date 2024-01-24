@@ -1,0 +1,63 @@
+{
+    "quantize": {
+        "PACTConv2d": {
+            "kwargs": {
+                "n_levels": 256,
+                "quantize": "per_channel",
+                "init_clip": "max",
+                "learn_clip": true,
+                "symm_wts": true,
+                "tqt": true
+            }
+        },
+        "PACTLinear": {
+            "kwargs": {
+                "n_levels": 256,
+                "quantize": "per_layer",
+                "init_clip": "max",
+                "learn_clip": true,
+                "symm_wts": true,
+                "tqt": true
+            }
+        },
+        "PACTUnsignedAct": {
+            "kwargs": {
+                "n_levels": 256,
+                "init_clip": "const",
+                "noisy": false,
+                "rounding": true,
+                "learn_clip": true,
+                "tqt": true
+            }
+        },
+        "harmonize": {
+            "n_levels": 256,
+            "init_clip": "max",
+            "noisy": false,
+            "rounding": true,
+            "force_out_eps": true,
+            "tqt": true,
+            "learn_clip": true
+        }
+    },
+    "controller": {
+        "schedules": {
+            "linear": {
+                "0": [
+                    "start",
+                    "verbose_on"
+                ]
+            },
+            "activation": {
+                "1": [
+                    "start",
+                    "verbose_on"
+                ]
+            }
+        },
+        "kwargs_linear": {},
+        "kwargs_activation": {
+            "init_clip_hi": 6.0
+        }
+    }
+}

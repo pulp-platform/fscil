@@ -1,0 +1,6 @@
+code/log
+# run_all*
+*.out
+__pycache__
+BUILD*
+dory/uart_input/data/MNIST/raw

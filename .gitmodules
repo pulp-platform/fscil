@@ -1,0 +1,9 @@
+[submodule "quantlab"]
+	path = quantlab
+	url = https://github.com/pulp-platform/quantlab
+[submodule "pulp-sdk"]
+	path = pulp-sdk
+	url = https://github.com/pulp-platform/pulp-sdk
+[submodule "gap_sdk"]
+	path = gap_sdk
+	url = https://github.com/GreenWaves-Technologies/gap_sdk
