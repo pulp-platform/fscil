@@ -8,7 +8,7 @@ This repository implements Online Few-Shot Class-Incremental Learning (OFSCIL) i
 If you use our methodology, please cite the following publication:
 
 ```
-_DATE'24_
+Accepted at 2024 Design, Automation & Test in Europe Conference & Exhibition (DATE).
 ```
 
 
@@ -122,11 +122,11 @@ Our code is based on
 
 ## Contributors
 
-Yoga Esa Wibowo, ETH Zurich, [ywibowo@ethz.ch](ywibowo@ethz.ch)
-Cristian Cioflan, ETH Zurich [cioflanc@iis.ee.ethz.ch](cioflanc@iis.ee.ethz.ch)
-Thorir Mar Ingolfsson, ETH Zurich [thoriri@iis.ee.ethz.ch](thoriri@iis.ee.ethz.ch)
-Michael Hersche, IBM Research Zurich [her@zurich.ibm.com](her@zurich.ibm.com)
-Leo Zhao, ETH Zurich [lezhao@student.ethz.ch](lezhao@student.ethz.ch)
+* Yoga Esa Wibowo, ETH Zurich, [ywibowo@ethz.ch](ywibowo@ethz.ch)
+* Cristian Cioflan, ETH Zurich [cioflanc@iis.ee.ethz.ch](cioflanc@iis.ee.ethz.ch)
+* Thorir Mar Ingolfsson, ETH Zurich [thoriri@iis.ee.ethz.ch](thoriri@iis.ee.ethz.ch)
+* Michael Hersche, IBM Research Zurich [her@zurich.ibm.com](her@zurich.ibm.com)
+* Leo Zhao, ETH Zurich [lezhao@student.ethz.ch](lezhao@student.ethz.ch)
 
 
 ## License
