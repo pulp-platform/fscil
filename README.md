@@ -8,7 +8,14 @@ This repository implements Online Few-Shot Class-Incremental Learning (OFSCIL) i
 If you use our methodology, please cite the following publication:
 
 ```
-Accepted at 2024 Design, Automation & Test in Europe Conference & Exhibition (DATE).
+@misc{wibowo2024ofscil,
+      title={12 mJ per Class On-Device Online Few-Shot Class-Incremental Learning}, 
+      author={Yoga Esa Wibowo and Cristian Cioflan and Thorir Mar Ingolfsson and Michael Hersche and Leo Zhao and Abbas Rahimi and Luca Benini},
+      year={2024},
+      eprint={2403.07851},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 
