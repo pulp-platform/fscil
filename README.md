@@ -136,6 +136,11 @@ Our code is based on
 * Leo Zhao, ETH Zurich [lezhao@student.ethz.ch](lezhao@student.ethz.ch)
 
 
+## Acknowledgements
+
+This work received support from the Swiss National Science Foundation Project 207913 "TinyTrainer: On-chip Training for TinyML devices".
+
+
 ## License
 
 Unless explicitly stated otherwise, the code is released under Apache 2.0, see the LICENSE file in the root of this repository for details.
